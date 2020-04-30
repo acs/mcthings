@@ -40,7 +40,8 @@ setup(
     ],
     install_requires=[
         'mcpi',
-        'minecraftstuff'
+        'minecraftstuff',
+        'pandas'
     ],
     python_requires='>=3.4'
 )
