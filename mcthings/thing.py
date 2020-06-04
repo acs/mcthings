@@ -149,7 +149,6 @@ class Thing:
                         rotated_z = min_pos.z + rotate_z(x, z)
                         World.server.setBlock(rotated_x, min_pos.y + y, rotated_z, b)
 
-
     def to_schematic(self, file_path, blocks_data=False):
         """
         Convert the Thing to a Schematic Object
