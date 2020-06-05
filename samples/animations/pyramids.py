@@ -67,7 +67,7 @@ def far_near(pyr):
 def rotate(pyr):
 
     pyr.build()
-    for rotation in [0, 90, 180, 270]:
+    for rotation in [90, 180, 270]:
         pyr.rotate(rotation)
         time.sleep(WAIT_TIME)
 
